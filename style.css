@@ -1,0 +1,36 @@
+
+audio, canvas {
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+
+canvas {
+    height: 30px;
+    background: #002D3C;
+}
+
+@media only screen and (max-width:550px) {
+    audio, canvas {
+        width: 100%;
+    }
+    canvas {
+        height: 200px;
+    }
+}
+@media only screen and (max-width:1400px) and (orientation: landscape) {
+    audio, canvas {
+        width: 80%;
+    }
+    canvas {
+        height: 200px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    audio, canvas {
+        width: 60%;
+    }
+    canvas {
+        height: 200px;
+    }
+}
